@@ -1,0 +1,137 @@
+body 
+{
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+
+}
+.contain
+{
+    position: relative;
+    background-color: azure;
+    max-width: 1000px;
+    min-height: 1000px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 50px;
+}
+.contain .leftsplit 
+{
+    position: relative;
+    background-color: rgb(71, 18, 36);
+    padding: 40px;
+}
+.flottant img
+{
+    position: absolute;
+    top : 0;
+    left: 0;
+    width: 210px ;
+    height :210px;
+    float : center  ;
+    margin-left: 60px;
+    margin-top: 40px;
+    border-start-end-radius: 60px;
+    border-end-start-radius: 60px;
+    border-top-left-radius: 60px;
+    border-end-end-radius: 60px;
+}
+.profiletext h2
+{
+    position:relative;
+    font-size: 1,5em;
+    margin-top: 220px;
+    display: flex;
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid whitesmoke;
+    line-height: 1,4pm;
+}
+.profiletext h2 span
+{
+    font-size: 0,8em;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+}
+.title
+{
+    color:rgb(212, 168, 168) ;
+    font-size: 0,7em;
+    font-style: bold;
+}
+.icon 
+{
+    color :rgb(229, 161, 161);
+    display :inline-block;
+    width :30px;
+    font-size: 18px;
+}
+.text 
+{
+    color :rgb(234, 214, 214);
+    line-height: 2em;
+    font-size: 0,6em ;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+   
+}
+.contain .rightsplit 
+{
+    position: relative;
+    background-color: antiquewhite;
+    padding: 40px;
+}
+.title1
+{
+    color :rgb(71, 18, 36);
+    font-style: bold;
+    font-size: 1,4em;
+}
+.icon1
+{
+    color :rgb(152, 98, 98);
+    line-height: 2em;
+    width:30px;
+    height :40px;
+}
+.text1
+{
+    font-size: 1,5em;
+    width:100px;
+    line-height: 1,5em;
+    font-style: bold;
+}
+.adress
+{
+    width:50px;
+
+    color:rgb(26, 23, 23);
+}
+.text2
+{
+    font-size: 2,2em;
+    line-height :0,5em;
+    width: 50px;
+    text-align: start;
+}
+.elm li 
+{
+    color :whitesmoke;
+    font-size: 0,7em;
+    line-height: 0,5em;
+}
+.text5
+{
+    line-height: 0,8em;
+    font-size: medium;
+    line-height: 0,5em;
+    
+}
